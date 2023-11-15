@@ -9,7 +9,7 @@ tags: []
 python service for website
 
 ## Structure:
-- `py-service` dir - Contains the flask initialization and API server code.
+- `pyService` dir - Contains the flask initialization and API server code.
 - `tests` dir - Unit tests 
 
 ## Build

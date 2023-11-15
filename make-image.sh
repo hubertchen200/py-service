@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t py-service .
+docker build -t pyService .

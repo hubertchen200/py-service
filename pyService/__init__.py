@@ -20,7 +20,7 @@ def create_app(test_config=None):
     except OSError:
         pass
 
-    from flaskAppServer import query, ingest
+    from pyService import query, ingest
     logging.basicConfig(level=logging.DEBUG)
     # apply the blueprints to the app
     app.register_blueprint(query.bp)
